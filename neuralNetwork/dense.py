@@ -4,7 +4,7 @@ import numpy as np
 
 class Dense(Layer):
 
-    def __int__(self, input_size, output_size):
+    def __init__(self, input_size, output_size):
         self.weights = np.random.randn(output_size,input_size) # Random matrix of weights
         self.bias = np.random.randn(output_size, 1) # Random vector of biases
 
