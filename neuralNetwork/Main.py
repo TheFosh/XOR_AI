@@ -33,7 +33,7 @@ for e in range(cycles):
         # Backward
         grad = mse_prime(y, output)
         for layer in reversed(network):
-            grid = layer.backward(grad, learning_rate)
+            grad = layer.backward(grad, learning_rate)
 
     error /= len(x)
     print("%d/%d, error = %f" % (e + 1, cycles, error))
