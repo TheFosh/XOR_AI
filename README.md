@@ -12,8 +12,10 @@ An XOR gate is a binary gate, that when given two inputs(both being 1 or 0), it 
 
 The reason this was picked for an ai to try to solve is because the points with same outputs are not linearly separable. Making the solution to become a function that is non-linear. These interesting functions can be viewed as a 3d scatter plot.
 
-
+![Scatterplot 1](https://github.com/TheFosh/XOR_AI/blob/main/table1_3D_Plot.png)
 
 These are graphed by generating points over a 2d plane from (0,0) -> (1,1), then these points output a prediction value from the AI. This value is the z value of the plot to be able to visually see the functions generated.
 These Images also have many variances since the AI originally starts with random parameters. This causes similar but different functions to be graphed when running the AI multiple times with the same points.
 
+![Scatterplot 2](https://github.com/TheFosh/XOR_AI/blob/main/table2_3D_Plot.png)
+![Scatterplot 3](https://github.com/TheFosh/XOR_AI/blob/main/table3_3D_Plot.png?raw=true)
