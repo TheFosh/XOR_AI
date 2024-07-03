@@ -20,7 +20,7 @@ def CreatePlainPredictions(_network):
         output = x
         for layer in _network:
             output = layer.forward(output)
-        outputList.append(str(round(np.sum(output),4)) +" "+ str(x[0][0]) +" "+ str(x[0][1]) +"\n")
+        outputList.append(str(round(np.sum(output),4)) +" "+ str(x[0][0][0]) +" "+ str(x[0][1][0]) +"\n")
         count += 1
 
         createFile(outputList)
