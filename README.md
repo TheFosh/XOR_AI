@@ -4,7 +4,7 @@
 ### This project is meant to show case what I’ve learned by following their video.
 
 This is an AI for solving an XOR gate. It is explained in the video why, but I also wish to show case this.
-An XOR gate is a binary gate, that when given two inputs(both being 1 or 0), it will out put either 1 or 0. An XOR gate in particular has the following output.
+An XOR gate is a binary gate, that when given two inputs(both being 1 or 0), it will out put either 1 or 0. An XOR gate in particular has the following table.
 (0,0) -> 0
 (1,0) -> 1
 (0,1) -> 1
@@ -14,6 +14,6 @@ The reason this was picked for an ai to try to solve is because the points with 
 
 
 
-These are graphed by generating points over a 2d plane from (0,0) -> (1,1), then these points then output a prediction value from the AI to visually see the functions generated.
+These are graphed by generating points over a 2d plane from (0,0) -> (1,1), then these points output a prediction value from the AI. This value is the z value of the plot to be able to visually see the functions generated.
 These Images also have many variances since the AI originally starts with random parameters. This causes similar but different functions to be graphed when running the AI multiple times with the same points.
 
