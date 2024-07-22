@@ -1,7 +1,7 @@
 > require(scatterplot3d)
-table1 = read.table("plainOutput_01.txt", header = TRUE)
-table2 = read.table("plainOutput_02.txt", header = TRUE)
-table3 = read.table("plainOutput_03.txt", header = TRUE)
+table1 = read.table("planeOutput_01.txt", header = TRUE)
+table2 = read.table("planeOutput_02.txt", header = TRUE)
+table3 = read.table("planeOutput_03.txt", header = TRUE)
 
 > scatterplot3d(table1[1:121,3:1],angle=140)
 
